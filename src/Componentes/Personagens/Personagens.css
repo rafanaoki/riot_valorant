@@ -1,0 +1,139 @@
+/* p */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Sofia+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.personagens {
+    height: 90vh;
+    font-family: 'Rowdies', cursive;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    position: relative;
+    overflow: hidden;
+    padding: 0 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+    min-width: 0px;
+    flex: 1 1 300px;
+    filter: grayscale(0.7);
+    transition: ease-in-out 0.5s;
+}
+
+.personagens:hover {
+    min-width: 600px;
+    flex: 1 1 600px;
+    opacity: 1;
+    filter: grayscale(0.0);
+    overflow: visible;
+}
+
+
+
+/* IMAGEM */
+.container-imagem-false {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-imagem-true {
+    height: 100%;
+    position: relative;
+    right: 0;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: ease-in-out diminuirContainer 0.5s;
+}
+
+@keyframes diminuirContainer {
+    from {
+        width: 100%;
+        right: 50%;
+    }
+}
+
+
+/* IMAGEM */
+.imagem-false {
+    height: 150%;
+    width: auto;
+    animation: aumentarImagem 0.5s;
+}
+
+@keyframes aumentarImagem {
+    from {
+        height: 100%;
+    }
+}
+
+.imagem-true {
+    height: 80%;
+    width: auto;
+    position: absolute;
+    animation: diminuirImagem 0.5s;
+}
+
+@keyframes diminuirImagem {
+    from {
+        height: 100%;
+    }
+}
+
+
+/* TEXTO */
+.conteudo-invisivel {
+    display: none;
+}
+
+.conteudo{
+    margin-top: 40px;
+    opacity: 1;
+    animation: aparecer 1.5s;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    
+}
+
+.container-texto {
+    color: #FFF;
+    width: 250px;
+    left: 0;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3em;
+    font-weight: 100; 
+}
+
+.container-texto h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.7em;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+
+
+/* BARRA */
+.barra-personagem {
+    width: 30%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    animation: esquerda 0.5s;
+}
+
+@keyframes esquerda {
+    to {
+        left: 50%;
+    }
+}

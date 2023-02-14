@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.cabecalho {
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.container__cabecalho {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* BANNER */
+.banner {
+    width: 60%;
+    margin: 0 50px;
+    height: 500px;
+    background-position: top center;
+    position: absolute;
+    background-size: cover;
+    background-image: url(../../../public/imagens/banner_valorant.png);
+}
+
+
+.banner--true {
+    top: 12%;
+    left: 32%;
+    animation: ease-out sobressair 0.5s forwards alternate;
+}
+
+@keyframes sobressair {
+    to {
+        top: 10%;
+        left: 30%;
+        box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    }
+}
+
+.banner--false {
+    top: 10%;
+    left: 30%;
+    animation: ease-out esconder 0.5s forwards alternate;
+}
+
+@keyframes esconder {
+    to {
+        top: 12%;
+        left: 32%;
+    }
+}
+
+
+/* TEXTO */
+.cabecalho__texto{
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+    font-family: 'Anton', sans-serif;
+    font-size: 10vw;
+    color: white;
+    -webkit-text-stroke: 2px white; 
+}
+
+/* CABECALHO__TEXTO--FALSE */
+.cabecalho__texto--false {
+    animation: texto-cheio-2 0.5s ease-out forwards;
+    left: 10%;
+    top: 30%;
+}
+
+@keyframes texto-cheio-2 {
+    from {
+        left: 15%;
+        top: 35%;
+    }
+}
+
+.cabecalho__texto--false::after {
+    content: 'Valorant';
+    position: absolute;
+    color: transparent;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: 2px white;
+    animation: texto-contorno-3 0.5s ease-out forwards;
+}
+
+@keyframes texto-contorno-3 {
+    from {
+        left: 20%;
+        top: 50%;
+    }
+}
+
+.cabecalho__texto--false::before {
+    content: 'Valorant';
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    top: 0;
+    left: 0;
+    animation: texto-contorno-4 0.5s ease-out forwards;
+}
+
+@keyframes texto-contorno-4 {
+    from {
+            left: 40%;
+            top: 100%;
+    }
+}
+
+
+/* CABECALHO__TEXTO--TRUE */
+.cabecalho__texto--true {
+    left: 10%;
+    top: 30%;
+    animation: texto-cheio-1 0.5s ease-out forwards;
+}
+
+@keyframes texto-cheio-1 {
+    to {
+        left: 15%;
+        top: 35%;
+    }
+}
+
+.cabecalho__texto--true::after {
+    content: 'Valorant';
+    position: absolute;
+    color: transparent;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: 2px white;
+    animation: texto-contorno-1 0.3s ease-out forwards;
+}
+
+@keyframes texto-contorno-1 {
+    to {
+        left: 20%;
+        top: 50%;
+    }
+}
+
+.cabecalho__texto--true::before {
+    content: 'Valorant';
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    animation: texto-contorno-2 0.3s ease-out forwards;
+    top: 0;
+    left: 0;
+}
+
+@keyframes texto-contorno-2 {
+    to {
+        left: 40%;
+        top: 100%;
+    }
+}
+
+
+

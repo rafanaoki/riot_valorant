@@ -1,0 +1,73 @@
+[{
+    "nome": "Brimstrine",
+    "funcao": "Controlador",
+    "bio": "Vindo diretamente dos EUA, o arsenal orbital de Brimstone garante que o esquadrão dele esteja sempre em vantagem. Sua capacidade de oferecer utilidade com precisão a distância faz dele um comandante inigualável na linha de frente.",
+    "img": "imagens/Brimstone.png",
+    "corPrimaria": "#A43A01",
+    "corSecundaria": "#FA9520"
+  },
+  {
+    "nome": "Phoenix",
+    "funcao": "Duelista",
+    "bio": "Chegando com tudo diretamente do Reino Unido, o poder estelar de Phoenix reluz em seu estilo de luta, incendiando o campo de batalha com luz e estilo. Tendo ajuda ou não, ele entra na luta como e quando achar que deve.",
+    "img": "imagens/phoenix.png",
+    "corPrimaria": "#FEAC4E",
+    "corSecundaria": "#F9823C"
+  },
+  {
+    "nome": "Sage",
+    "funcao": "Sentinela",
+    "bio": "Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de calmaria em meio ao caos da batalha.",
+    "img": "imagens/sage.png",
+    "corPrimaria": "#3DDEC1",
+    "corSecundaria": "#5DB8DC"
+  },
+  {
+    "nome": "Sova",
+    "funcao": "Iniciador",
+    "bio": "Nascido sob o eterno inverno das tundras russas, Sova rastreia, encontra e elimina inimigos com eficiência e precisão implacáveis. Seu arco personalizado e suas habilidades inigualáveis de reconhecimento garantem que nenhuma presa escape.",
+    "img": "imagens/Sova.png",
+    "corPrimaria": "#263CA2",
+    "corSecundaria": "#11255C"
+  },
+  {
+    "nome": "Viper",
+    "funcao": "Controladora",
+    "bio": "Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo. Se as toxinas não matarem a presa, seus jogos mentais certamente o farão.",
+    "img": "imagens/Viper.png",
+    "corPrimaria": "#00AD44",
+    "corSecundaria": "#254535"
+  },
+  {
+    "nome": "Cypher",
+    "funcao": "Sentinela",
+    "bio": "Cypher, um vendedor de informações do Marrocos, é uma verdadeira rede de vigilância de um homem só que fica de olho em cada movimento dos inimigos. Nenhum segredo está a salvo. Nenhuma manobra passa despercebida. Cypher está sempre vigiando.",
+    "img": "imagens/Cypher.png",
+    "corPrimaria": "#B8B8B8",
+    "corSecundaria": "#438BED"
+  },
+  {
+    "nome": "Reyna",
+    "funcao": "Duelista",
+    "bio": "Criada no coração do México, Reyna domina o combate individual, destacando-se a cada abate efetuado. Sua capacidade só é limitada por sua própria perícia, tornando-a bastante dependente de desempenho.",
+    "img": "imagens/Reyna.png",
+    "corPrimaria": "#A6479A",
+    "corSecundaria": "#BC1282"
+  },
+  {
+    "nome": "KillJoy",
+    "funcao": "Sentinela",
+    "bio": "Killjoy, uma alemã genial, defende o campo de batalha facilmente usando seu arsenal de invenções. Se o dano causado por seu equipamento não der cabo dos inimigos, os efeitos negativos de seus queridos robôs dão conta do recado.",
+    "corPrimaria": "#F9DC31",
+    "img": "imagens/Killjoy.png",
+    "corSecundaria": "#559F6F"
+  },
+  {
+    "nome": "Breach",
+    "funcao": "Iniciador",
+    "bio": "Breach, o homem-biônico sueco, dispara poderosos jatos cinéticos para forçar a abertura de um caminho pelo território inimigo. O dano e a interrupção que ele causa garantem que nenhuma luta seja justa.",
+    "img": "imagens/Breach.png",
+    "corPrimaria": "#75401D",
+    "corSecundaria": "#A96C40"
+  }
+]
